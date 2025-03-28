@@ -13,8 +13,9 @@ def decrypt_message(encrypted_text):
             decrypted_text += char  
     return decrypted_text
 
-# Şifrelenmiş mesaj
 encrypted_message = "ymj vznhp gwtbs ktc ozrux tajw ymj qfed itl"
 
 decrypted_message = decrypt_message(encrypted_message)
 print(f"Çözülmüş Mesaj: {decrypted_message}")
+
+
